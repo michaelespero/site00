@@ -46,7 +46,7 @@ image = "images/2020-landscape-1-2.png"
 heading = "End-to-end data science and analytics"
 [params.call_to_action]
 button_label = "Contact Us"
-button_url = ""
+button_url = "michael@perceptioninterval.com"
 content = ""
 enable = true
 title = "Contact us for more information."
