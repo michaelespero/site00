@@ -20,11 +20,11 @@ name = "Home"
 weight = 1
 [[menu.main]]
 URL = "about/"
-name = "About"
+name = ""
 weight = 2
 [[menu.main]]
 URL = "blog/"
-name = "Blog"
+name = ""
 weight = 3
 [[menu.main]]
 URL = "contact/"
@@ -32,7 +32,7 @@ name = "Contact"
 weight = 4
 [[menu.main]]
 URL = "sample-page/"
-name = "Sample Page"
+name = ""
 weight = 5
 [outputs]
 home = ["HTML", "RSS", "JSON"]
@@ -45,11 +45,11 @@ image = "images/2020-landscape-1-2.png"
 [params.blog]
 heading = "End-to-end data science and analytics"
 [params.call_to_action]
-button_label = "Contact Us"
-button_url = "michael@perceptioninterval.com"
+button_label = ""
+button_url = ""
 content = ""
 enable = true
-title = "Contact us for more information."
+title = ""
 [params.cookies]
 enable = true
 expire_days = 2
@@ -65,13 +65,8 @@ enable = true
 image = "images/2020-square-2.png"
 [[params.gallery.gallery_item]]
 image = "images/2020-square-1.png"
-[params.social]
-email = "#"
-facebook = "#"
-instagram = "#"
-linkedin = "#"
-twitter = "#"
-yelp = "#"
+
+
 [taxonomies]
 author = "author"
 category = "categories"
