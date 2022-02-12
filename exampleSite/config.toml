@@ -43,7 +43,7 @@ description = "This is meta description"
 heading = "Blending Intuition With Data"
 image = "images/2020-landscape-1-2.png"
 [params.blog]
-heading = "End-to-end data science and analytics."
+heading = "End-to-end data science and analytics"
 [params.call_to_action]
 button_label = "Contact Us"
 button_url = "contact/"
@@ -56,8 +56,7 @@ expire_days = 2
 [params.favicon]
 favicon = "images/favicon.png"
 [params.footer]
-address = ""
-content = "End-to-end data science and analytics."
+content = "End-to-end data science and analytics"
 copyright = "Copyright &copy; 2022 Perception Interval"
 title = "Perception Interval"
 [params.gallery]
