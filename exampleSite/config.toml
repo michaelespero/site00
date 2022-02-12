@@ -12,10 +12,10 @@ title = "Perception Interval"
 unsafe = true
 [[menu.desktop]]
 URL = "contact/"
-name = "Contact"
+name = ""
 weight = 1
 [[menu.main]]
-URL = "/"
+URL = "perceptioninterval.com"
 name = "Home"
 weight = 1
 [[menu.main]]
