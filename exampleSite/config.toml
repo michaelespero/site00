@@ -32,7 +32,7 @@ name = "Contact"
 weight = 4
 [[menu.main]]
 URL = "sample-page/"
-name = "Green NFTS"
+name = "Green NFTs"
 weight = 5
 [outputs]
 home = ["HTML", "RSS", "JSON"]
