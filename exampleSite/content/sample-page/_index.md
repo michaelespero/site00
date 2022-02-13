@@ -6,5 +6,5 @@ description: "This is meta description"
 draft: false
 ---
 
-<p> Visualizations on the Polygon Chain</p>
+<p> NFT Visualizations on the Polygon Chain at: https://opensea.io/collection/perceptioninterval</p>
 
