@@ -1,27 +1,13 @@
-######################## default configuration ####################
 baseURL = "https://perceptioninterval.com/"
-title = "Perception Interval"
-theme = "twenty-twenty-hugo"
-languageName = "En"
+disableLanguages = []
+disqusShortname = ""
+googleAnalytics = ""
 languageCode = "en-us"
-# post pagination
+languageName = "En"
 paginate = "6"
-# post excerpt
 summaryLength = "10"
-# disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
-# disable language
-disableLanguages = [] # disable language from here
-# google analytics
-googleAnalytics = "" # example : UA-123-45
-
-
-############################## Output ###############################
-[outputs]
-home = ["HTML", "RSS", "JSON"]
-
-# unsafe html
-[markup.goldmark.renderer]
+theme = "twenty-twenty-hugo"
+title = "Perception Interval"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.desktop]]
