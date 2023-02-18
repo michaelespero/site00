@@ -1,13 +1,27 @@
+######################## default configuration ####################
 baseURL = "https://perceptioninterval.com/"
-disableLanguages = []
-disqusShortname = ""
-googleAnalytics = ""
-languageCode = "en-us"
-languageName = "En"
-paginate = "6"
-summaryLength = "10"
-theme = "twenty-twenty-hugo"
 title = "Perception Interval"
+theme = "twenty-twenty-hugo"
+languageName = "En"
+languageCode = "en-us"
+# post pagination
+paginate = "6"
+# post excerpt
+summaryLength = "10"
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
+# disable language
+disableLanguages = [] # disable language from here
+# google analytics
+googleAnalytics = "" # example : UA-123-45
+
+
+############################## Output ###############################
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+# unsafe html
+[markup.goldmark.renderer]
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.desktop]]
@@ -57,7 +71,7 @@ expire_days = 2
 favicon = "images/favicon.png"
 [params.footer]
 content = "End-to-end data science and analytics"
-copyright = "Copyright &copy; 2022 Perception Interval"
+copyright = "Copyright &copy; 2023 Perception Interval"
 title = "Perception Interval"
 [params.gallery]
 enable = true
