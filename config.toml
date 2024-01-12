@@ -1,0 +1,73 @@
+baseURL = "https://perceptioninterval.com/"
+disableLanguages = []
+disqusShortname = ""
+googleAnalytics = ""
+languageCode = "en-us"
+languageName = "En"
+paginate = "6"
+summaryLength = "10"
+theme = "twenty-twenty-hugo"
+title = "Perception Interval"
+[markup.goldmark.renderer]
+unsafe = true
+[[menu.desktop]]
+URL = "contact/"
+name = ""
+weight = 1
+[[menu.main]]
+URL = ""
+name = "Home"
+weight = 1
+[[menu.main]]
+URL = "about/"
+name = ""
+weight = 2
+[[menu.main]]
+URL = "blog/"
+name = ""
+weight = 3
+[[menu.main]]
+URL = "contact/"
+name = "Contact"
+weight = 4
+[[menu.main]]
+URL = "sample-page/"
+name = "Green NFTs"
+weight = 5
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+[params]
+author = "Michael Espero"
+description = "This is meta description"
+[params.banner]
+heading = "Blending Intuition With Data"
+image = "images/2020-landscape-1-2.png"
+[params.blog]
+heading = "End-to-end data science and analytics"
+[params.call_to_action]
+button_label = ""
+button_url = ""
+content = ""
+enable = true
+title = ""
+[params.cookies]
+enable = true
+expire_days = 2
+[params.favicon]
+favicon = "images/favicon.png"
+[params.footer]
+content = "End-to-end data science and analytics"
+copyright = "Copyright &copy; 2024 Perception Interval"
+title = "Perception Interval"
+[params.gallery]
+enable = true
+[[params.gallery.gallery_item]]
+image = "images/2020-square-2.png"
+[[params.gallery.gallery_item]]
+image = "images/2020-square-1.png"
+
+
+[taxonomies]
+author = "author"
+category = "categories"
+tag = "tags"
